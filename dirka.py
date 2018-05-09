@@ -2,6 +2,7 @@ import turtle
 from zelva import Zelva
 from rdeca_zelva import RdecaZelva
 from kameleonska_zelva import KameleonskaZelva
+from modra_zelva import ModraZelva
 
 # Barve bomo nastavljali s števili v rangu od 0.0 do 1.0
 turtle.colormode(1.0)
@@ -10,6 +11,7 @@ ZELVE = [
     RdecaZelva(),
     KameleonskaZelva(),
     Zelva('Zelenka', barva='green', hitrost=1),
+    ModraZelva(),
 ]
 
 def dirka(zacetek, konec, visina=20, korak=10):
